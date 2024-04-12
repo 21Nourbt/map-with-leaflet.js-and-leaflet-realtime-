@@ -1,0 +1,54 @@
+    <form [formGroup]="publicbeachForm"  (ngSubmit)="publicbeachadd"   class="border border-dark">
+        <div class="row ">
+            <div class="col-8 offset-1"><h3 class="tit"> ADD Public beach </h3></div>            
+        </div>
+        <div class="row mb-2">
+            <div class="col-5 offset-1">
+                <label for="id" class="form-label">Id_beach</label> 
+                <input type="text" id="id" class="form-control" formControlName="id"> 
+                           
+            </div>
+            <div class="col-5">
+                <label class="form-label" for="beachname">Beach_Name</label>
+                <input type="text" class="form-control" id="beachname"  formcontroName="beachname"required> 
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-5 offset-1">
+                <label class="form-label" for="city">City</label>
+                <select class="form-select" id="city">
+                    <option >Djerba</option>
+                    <option>Hammamet</option>
+                    <option>Tunis</option>
+                </select>
+            </div>
+            <div class="col-5">
+                <label class="form-label" for="location">Location</label>
+                <input class="form-control" type="text" id="location" formControlName="location" required>
+            </div>
+        </div>
+        <div class="row mb-2">
+            <div class="col-5 offset-1"> 
+                <label class="form-label" for="description">Description</label>
+                <input class="form-control" type="text" id="description" formConrolName="description">
+            </div>
+            <div class="col-5">
+                <label class="form-label" for="photos">Beach Photos</label>
+                <input class="form-control" type="file" id="input-photos" formControlName="photos">
+            </div>
+        </div>
+        <div class="row mb-3 ">
+            <div class="col-5 offset-1">
+                <div class="d-grid">
+                    <button class="btn btn-submit btn-block" class="a1">Cancel</button>
+                </div>      
+            </div >
+            <div class="col-5">
+                <div class="d-grid">
+                    <button class="btn btn-submit btn-block" class="a1" > ADD</button>
+                </div>
+                    
+             </div>  
+           
+         </div>   
+    </form>

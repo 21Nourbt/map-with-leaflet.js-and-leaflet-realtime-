@@ -1,0 +1,22 @@
+
+.container1{
+   height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    background-image: url('../assets/images/imageback.jpg');
+   }
+   app-modifylounge{
+    /* background-color: aqua; */
+   }
+.container2{
+    background-image: url('../assets/images/imageback.jpg');
+}
+
+.add{
+    width: 100%;
+    height: 400px;
+}
