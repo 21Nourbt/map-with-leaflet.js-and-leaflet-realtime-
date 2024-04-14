@@ -10,6 +10,8 @@ import { LoungeComponent } from './lounge/lounge.component';
 import { ModifyResturantComponent } from './modify-resturant/modify-resturant.component';
 import { ModifyloungeComponent } from './modifylounge/modifylounge.component';
 import { OwnerHeaderComponent } from './owner-header/owner-header.component';
+import { BookingComponent } from './booking/booking.component';
+import { Booking1Component } from './booking1/booking1.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { OwnerHeaderComponent } from './owner-header/owner-header.component';
     ModifyResturantComponent,
     LoungeComponent,
     ModifyloungeComponent,
-    OwnerHeaderComponent
+    OwnerHeaderComponent,
+    BookingComponent,
+    Booking1Component
     
   ],
   imports: [

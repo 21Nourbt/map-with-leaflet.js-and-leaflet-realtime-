@@ -14,7 +14,6 @@ export class PublicbeachComponent implements OnInit {
   }
     publicbeachForm =new FormGroup({
       id :new FormControl(""),
-   
      beachname:new FormGroup(""),
     city:new FormGroup(""),
     location:new FormGroup(""),

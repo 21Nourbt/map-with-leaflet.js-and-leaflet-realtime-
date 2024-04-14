@@ -1,4 +1,4 @@
-<form class="border border-dark">
+<form >
     <div class="row ">
         <div class="col-8 offset-1"><h3 class="tit"> ADD Resturant </h3></div>            
     </div>
@@ -27,18 +27,7 @@
             <input class="form-control" type="text" id="input-location" formControlName="input-location" required>
         </div>
     </div>
-    <div class="row mb-3">
-        <div class="col-5 offset-1">
-            <label class="form-label" for="input-description">Description</label>
-            <input class="form-control" type="text" id="input-description" >
-        </div>
-        <div class="col-5">
-            <label class="form-label" for="tel">Description</label>
-            <input class="form-control" type="tel" id="tel" >
-
-        </div>
-
-    </div>
+    
     <div class="row mb-3">
         <div class="col-5 offset-1"> 
             <label class="form-label" for="menu">Menu Photos </label>
@@ -48,7 +37,20 @@
             <label class="form-label" for="input-photos">Resturant Photos</label>
             <input class="form-control" type="file" id="input-photos" formControlName="input-photos">
         </div>
-    </div>  
+    </div> 
+    <div class="row mb-3">
+        
+        <div class="col-5 offset-1">
+            <label class="form-label" for="tel">Phone Number</label>
+            <input class="form-control" type="tel" id="tel" >
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-5 offset-1">
+            <label class="form-label" for="description">Description</label>
+             <textarea id="description" cols="60" rows="3"></textarea>
+        </div>
+    </div>    
     <div class="row mb-3 ">
         <div class="col-5 offset-1 ">
             <div class="d-grid">
